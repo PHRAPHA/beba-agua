@@ -39,6 +39,7 @@
     display: flex;
     align-items: center;
     height: 4em;
+    margin-left: 4em;
     background-color: transparent;
     position: fixed;
     width: 100%;
@@ -61,15 +62,6 @@ a:visited {
 
 /*css para o grid*/
 .grid {
-    display: grid;
-    grid-template-rows: 100vh;
-    grid-column-gap: 5%;
-    grid-template-columns: 1fr 1fr;
-    align-self: center;
-    align-items: center;
-}
-
-.grid2 {
     display: grid;
     grid-template-rows: 100vh;
     grid-column-gap: 5%;
@@ -115,6 +107,7 @@ p {
 .buttons {
     margin-top: 5px;
 }
+
 .btn {
     height: 50px;
     background-color: #444;
