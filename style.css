@@ -104,3 +104,14 @@ p {
     justify-content: center;
     text-align: center;
 }
+
+.last-page .texto p{
+    padding: 1em 10em;
+    justify-self: center;
+    text-align: center;
+}
+
+
+#first-text{
+    font-size: 500%;
+}
