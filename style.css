@@ -61,11 +61,12 @@ body {
 }
 
 h1 {
-    padding-bottom: 1%;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 2px;
 }
 
 p {
-    padding-bottom: 3%;
+    padding-bottom: 5%;
 }
 
 .texto-left {
@@ -87,6 +88,9 @@ p {
     justify-self: center;
 }
 
+.buttons {
+    margin-top: 5px;
+}
 .btn {
     height: 50px;
     background-color: #444;
@@ -95,18 +99,6 @@ p {
 
 a:last-of-type {
     margin-left: 15px;
-}
-
-.cta {
-    /*Tamanho e Posição na página */
-    width: auto;
-    height: auto;
-    align-items: center;
-
-    /*Cor*/
-    border-radius: 4px;
-    padding: 8px;
-    background-color: #F7E54B;
 }
 
 .last-page {
@@ -122,6 +114,18 @@ a:last-of-type {
     text-align: center;
 }
 
+footer {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+}
+
+footer p {
+    padding: 1%;
+    font-size: 12px;
+}
 
 #first-text{
     font-size: 500%;
