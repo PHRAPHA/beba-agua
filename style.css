@@ -86,6 +86,16 @@ p {
     justify-self: center;
 }
 
+.btn {
+    height: 50px;
+    background-color: #444;
+    border-radius: 8px;
+}
+
+a:last-of-type {
+    margin-left: 15px;
+}
+
 .cta {
     /*Tamanho e Posição na página */
     width: auto;
