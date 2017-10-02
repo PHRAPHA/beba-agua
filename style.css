@@ -35,6 +35,30 @@
     background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
 }
 
+#menu {
+    display: flex;
+    align-items: center;
+    height: 4em;
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    z-index: 7;
+}
+
+#menu ul li {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #1c1c1c;
+}
+
 /*css para o grid*/
 .grid {
     display: grid;
