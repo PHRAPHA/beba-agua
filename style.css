@@ -86,6 +86,10 @@ p {
     justify-self: center;
 }
 
+.btn {
+    height: 50px;
+}
+
 .cta {
     /*Tamanho e Posição na página */
     width: auto;
