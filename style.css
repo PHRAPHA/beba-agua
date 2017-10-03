@@ -44,6 +44,7 @@
     position: fixed;
     width: 100%;
     z-index: 7;
+
 }
 
 #menu ul li {
@@ -54,11 +55,20 @@
 
 #menu ul li a {
     text-decoration: none;
+    color: #000;
+    font-weight: bold;
 }
 
 a:visited {
     color: #1c1c1c;
 }
+/*Alteração 02/10*/
+#menu ul li a .active{
+    background-color: black;
+    opacity: 0.7;
+    border-radius: 10%;
+}
+/*Alteração 02/10*/
 
 /*css para o grid*/
 .grid {
@@ -137,11 +147,17 @@ footer {
     bottom: 0;
     width: 100%;
     justify-content: center;
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 47%, rgba(237,237,237,1) 100%);
+
 }
+
 
 footer p {
     padding: 1%;
-    font-size: 12px;
+    font-size: 16px;
+}
+footer a{
+    text-decoration: none;
 }
 
 #first-text{
@@ -153,4 +169,4 @@ footer p {
     height: 550px;
 }
 
-/*Css Grid > Bootstrap */
+
