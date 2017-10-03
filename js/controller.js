@@ -1,3 +1,6 @@
 $(document).ready(function() {
-    $('#pagepiling').pagepiling();
+    $('#pagepiling').pagepiling({
+        anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage'],
+        menu: '#itens-menu'
+    });
 });

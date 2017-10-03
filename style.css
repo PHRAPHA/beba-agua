@@ -35,17 +35,33 @@
     background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
 }
 
-/*css para o grid*/
-.grid {
-    display: grid;
-    grid-template-rows: 100vh;
-    grid-column-gap: 5%;
-    grid-template-columns: 1fr 1fr;
-    align-self: center;
+#menu {
+    display: flex;
     align-items: center;
+    height: 4em;
+    margin-left: 4em;
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    z-index: 7;
 }
 
-.grid2 {
+#menu ul li {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #1c1c1c;
+}
+
+/*css para o grid*/
+.grid {
     display: grid;
     grid-template-rows: 100vh;
     grid-column-gap: 5%;
@@ -57,14 +73,16 @@
 /*css do conteudo*/
 body {
     font-family: "Roboto", sans-serif;
+    color: #1c1c1c;
 }
 
 h1 {
-    padding-bottom: 1%;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 2px;
 }
 
 p {
-    padding-bottom: 3%;
+    padding-bottom: 5%;
 }
 
 .texto-left {
@@ -86,16 +104,18 @@ p {
     justify-self: center;
 }
 
-.cta {
-    /*Tamanho e Posição na página */
-    width: auto;
-    height: auto;
-    align-items: center;
+.buttons {
+    margin-top: 5px;
+}
 
-    /*Cor*/
-    border-radius: 4px;
-    padding: 8px;
-    background-color: #F7E54B;
+.btn {
+    height: 50px;
+    background-color: #444;
+    border-radius: 8px;
+}
+
+a:last-of-type {
+    margin-left: 15px;
 }
 
 .last-page {
@@ -104,3 +124,33 @@ p {
     justify-content: center;
     text-align: center;
 }
+
+.last-page .texto p{
+    padding: 1em 10em;
+    justify-self: center;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+}
+
+footer p {
+    padding: 1%;
+    font-size: 12px;
+}
+
+#first-text{
+    font-size: 500%;
+}
+
+#celular1{
+    width: auto;
+    height: 550px;
+}
+
+/*Css Grid > Bootstrap */
